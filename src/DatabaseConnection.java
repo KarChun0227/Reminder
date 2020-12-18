@@ -13,7 +13,7 @@ public class DatabaseConnection {
 	        // Database name to access 
 	        String dbName = "UserAccount"; 
 	        String dbUsername = "root"; 
-	        String dbPassword = "chun19729330"; 
+	        String dbPassword = "pass"; 
 	  
 	        Class.forName(dbDriver); 
 	        Connection con = DriverManager.getConnection(dbURL + dbName, 
